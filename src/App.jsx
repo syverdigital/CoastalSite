@@ -1,11 +1,9 @@
-import { useState } from 'react';
+import footerLogo from '"src/assets/logo.svg"'
+import theSpace from '"src/assets/logo.svg"'
 import styles from './App.module.scss';
 
 
 function App() {
-    const [count, setCount] = useState(0);
-
-
     return (
         <div className={styles.App}>
             <header className={styles.nav}>
@@ -61,7 +59,7 @@ function App() {
                         </a>
                     </span> */}
                     <span className={(styles['nav-span'], styles.booknowBtn)}>
-                        <a href="/" className={styles['nav-links']}>
+                        <a href="airbnb.com/h/sunsetgetaway2023" className={styles['nav-links']}>
                             Book
                         </a>
                     </span>
@@ -86,11 +84,11 @@ function App() {
                     of paradise!
                 </p>
                 <div className={styles.showcaseImage}>
-                  <img src="src/assets/thespace.png" className={styles.showcaseImage}/>
+                  <img src={theSpace} className={styles.showcaseImage}/>
                 </div>
             <div className={styles.footer}>
               <div> 
-                <img src="src/assets/logo.svg" className={styles.footerLogo}/>
+                <img src={footerLogo} className={styles.footerLogo}/>
                     
                     <p className={styles.Copy}>© 2023 The Coastal Breeze</p>
                     </div>
