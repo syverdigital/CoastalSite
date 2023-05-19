@@ -87,6 +87,7 @@
   height: 640px;
   background-image: url('./assets/LivingRoom.png');
   background-size: cover;
+  background-position: center;
   display: flex;
   width: 100vw;
   top: 0px;
@@ -198,7 +199,9 @@
     line-height: 1;
    }
 
-
+   .showcaseImage{
+   margin: 20px 0px;
+   }
 
 
 }

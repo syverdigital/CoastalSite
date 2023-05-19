@@ -1,5 +1,5 @@
-import footerLogo from '"src/assets/logo.svg"'
-import theSpace from '"src/assets/logo.svg"'
+import footerLogo from '/src/assets/logo.svg'
+import theSpace from '/src/assets/thespace.png'
 import styles from './App.module.scss';
 
 
@@ -59,7 +59,7 @@ function App() {
                         </a>
                     </span> */}
                     <span className={(styles['nav-span'], styles.booknowBtn)}>
-                        <a href="airbnb.com/h/sunsetgetaway2023" className={styles['nav-links']}>
+                        <a href="airbnb.com/h/sunsetgetaway2023"  target='blank' className={styles['nav-links']}>
                             Book
                         </a>
                     </span>
