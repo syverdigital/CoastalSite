@@ -1,0 +1,204 @@
+.App {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.logo {
+  padding: 1.25em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.ts:hover {
+  filter: drop-shadow(0 0 2em #3178c6aa);
+}
+
+.logo.scss:hover {
+  filter: drop-shadow(0 0 2em #cc6698aa);
+}
+
+
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 180px;
+  height: 100px;
+  padding: 0em;
+  margin: 0px 0px 0px 40px;
+}
+.nav {
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  width: 100vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.nav-links {
+  color: #414141;
+  text-transform: uppercase;
+  font-family: jost;
+  font-weight: 700;
+}
+.booknowBtn {
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.nav-btns {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 62px;
+  padding: 24px 48px 24px 24px;
+}
+.image-promo {
+  height: 640px;
+  background-image: url('./assets/LivingRoom.png');
+  background-size: cover;
+  display: flex;
+  width: 100vw;
+  top: 0px;
+  position: static;
+  left: 0px;
+  flex-direction: row;
+  align-items: center;
+  align-content: end;
+  flex-wrap: nowrap;
+  justify-items: center;
+  justify-content: center;
+}
+.topTextHeader {
+  font-family: mr dafoe;
+  font-size: 48px;
+  color: #fff;
+  line-height: 0;
+}
+.topSubTextHeader {
+  font-family: Jost;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0;
+}
+.headertextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0px 0px;
+  align-content: center;
+  line-height: 0;
+  align-self: center;
+}
+.welcomeSection {
+  margin-top: -120px;
+  width: 100vw;
+  height: 1200px;
+  position: relative;
+  z-index: 1;
+  background-image: url('./assets/welcomeSection.svg');
+  background-size: 134vw;
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.WelcomeHeaderText {
+  font-family: Mr Dafoe;
+  color: #2a5866;
+  font-size: 64px;
+}
+.WelcomeheaderSubText {
+  font-family: Jost;
+  text-transform: uppercase;
+  color: #414141;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.5;
+}
+.welcomeTextBody {
+  font-family: Jost;
+  color: #414141;
+  font-weight: 500;
+  width: 50vw;
+  align-self: center;
+  font-size: 24px;
+}
+
+.showcaseImage{
+  width: 100vw;
+  height: auto;
+  margin: 120px 0px ;
+ }
+
+
+ .footer{
+ 
+  margin-bottom: 120px;
+  width: 100vw;
+  height: 240px;
+ }
+
+ .footerLogo{
+  width: 20vw;
+  height: 120px;
+ }
+ .Copy{
+  color: #414141;
+  margin-bottom: 1200px;
+ }
+
+@media (max-width: 1120px)  {
+
+  .topSubTextHeader {
+    font-size: 32px;
+    line-height: 1;
+  }
+  
+  .WelcomeHeaderText {
+   font-size: 40px;
+  }
+  .welcomeTextBody {
+   font-size: 20px;
+   width: 80vw;
+  }
+   .WelcomeheaderSubText {
+    font-size: 32px;
+    line-height: 1;
+   }
+
+
+
+
+}
